@@ -37,7 +37,6 @@ export default {
       description: 'Price of the pizza in cents',
       inputComponent: PriceInput,
       validation: (Rule) => Rule.min(1000),
-      inputComponent: PriceInput,
     },
     {
       name: 'toppings',
